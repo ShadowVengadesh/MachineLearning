@@ -1,0 +1,8 @@
+Taggle web site is very usefull to test our machine learning skills
+Through the test. this web site provides more tutorial for data science
+
+
+W3schools pandas this web site also similar to taggle 
+
+
+Create your project using pandas
