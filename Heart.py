@@ -1,4 +1,4 @@
-Import numpy as np 
+import numpy as np 
 
 import csv 
 
@@ -26,9 +26,7 @@ print(heartDisease.head())
 
 Model=BayesianModel([('age','trestbps'),('age','fbs'), 
 
-('sex','trestbps'),('exang','trestbps'),('trestbps','heartdise 
-
-ase'),('fbs','heartdisease'),('heartdisease','restecg'), 
+('sex','trestbps'),('exang','trestbps'),('trestbps','heartdisease'),('fbs','heartdisease'),('heartdisease','restecg'), 
 
 ('heartdisease','thalach'),('heartdisease','chol')]) 
 
@@ -62,4 +60,4 @@ q=HeartDisease_infer.query(variables=['heartdisease'],evidence
 
 ={'chol':100}) 
 
-print(q['heartdisease']) 
+print(q['heartdisease'])
